@@ -41,6 +41,10 @@ action_endpoint:
 #  password: password
 #  queue: queue
 #
+
 nlg:
- type: custom.quick_rephraser.QuickResponseRephraser
- prompt: prompt_templates/rephrase_prompt.jinja2
+  # type: custom.quick_rephraser.QuickResponseRephraser
+  # prompt: prompt_templates/rephrase_prompt.jinja2
+  type: rephrase
+
+

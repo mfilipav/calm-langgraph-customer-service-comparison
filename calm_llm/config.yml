@@ -5,6 +5,7 @@ pipeline:
   llm:
     provider: openai
     model: gpt-4-0613
+    # model_group: openai-gpt-4o
     timeout: 7
     max_tokens: 256
     temperature: 0

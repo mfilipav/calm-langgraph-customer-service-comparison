@@ -39,15 +39,15 @@ responses:
         Please try again with one of these locations: 
         {hotel_locations_in_db_readable}
   utter_ask_hotel_start_date:
-    - text: "Certainly! I'd be happy to help you book a hotel. What's your preferred check-in date?"
+    - text: Certainly! I'd be happy to help you book a hotel. What's your preferred check-in date?
   utter_ask_hotel_end_date:
-    - text: "when do you want to leave?"
+    - text: when do you want to leave?
   utter_ask_hotel_name:
     - text: |
         I've found some great options for your stay: 
         {hotel_search_results_readable}
   utter_ask_hotel_booking_confirmation:
-    - text: "Excellent choice! Just to confirm, you'd like me to book the {hotel_name} for your stay from {hotel_start_date_readable} to {hotel_end_date_readable}, correct?"
+    - text: Excellent choice! Just to confirm, you'd like me to book the {hotel_name} for your stay from {hotel_start_date_readable} to {hotel_end_date_readable}, correct?
   utter_confirm_booked_hotel:
     - text: Great news! I've successfully booked your stay at the {hotel_name}
   utter_will_not_book_hotel:
